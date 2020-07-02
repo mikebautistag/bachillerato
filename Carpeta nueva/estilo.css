@@ -1,29 +1,60 @@
 body{
-    background-image: url(img/fondo.png);
+    /*background-image: url(IMG/x.jpg);*/
     margin: 0;
 }
 h1{
-    color:beige;
-    text-align: justify;
-    font-size: 36px;
+    color:green;
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    color:blanchedalmond;
+    text-align: center;
+    font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 p{
-    color: aliceblue;
-    text-align: center;
-    font-size: 23px;
+    color: rgb(27, 47, 65);
+    text-align: justify;
+    font-size: 24px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Cambria, Cochin, Georgn  ia, Times, 'Times New Roman', serif;
+}
+ul{
+    color: rgb(27, 47, 65);
+    text-align: justify;
+    font-size: 24px;
+    margin-left: 8%;
+    margin-right: 8%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+    color: rgb(27, 47, 65);
+    text-align: justify;
+    font-size: 22px;
     margin-left: 10%;
     margin-right: 10%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 table{
-    border: #CCC;
+    border: #cccccc;
     margin: auto;
 }
 .imagen{
     width: 300px;
     border-radius: 10px;
-    border: 1px solid #CCC;
+    border: 1px solid black;
+}
+.imagentitle{
+    width: 150px;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 .imagen:hover{
     transform: scale(1.2);
